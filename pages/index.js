@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Masthead from "../components/masthead";
+import Landing from "../components/Landing";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <h1 className="text-bold">Hello World</h1> */}
-      <Masthead />
+      <Landing />
     </div>
   );
 }
