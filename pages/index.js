@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import About from "../components/about";
 import Landing from "../components/Landing";
 import styles from "../styles/Home.module.css";
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       {/* <h1 className="text-bold">Hello World</h1> */}
       <Landing />
+      <About />
     </div>
   );
 }

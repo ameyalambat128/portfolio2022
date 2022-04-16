@@ -15,7 +15,7 @@ const Landing = () => {
         <source src="/assets/landing.mp4" type="video/mp4" />
       </video>
 
-      <div className={`flex-grow-0 pt-10 transition-opacity duration-1000`}>
+      <div className={`flex-grow-0 pt-10 transition-all duration-1000`}>
         <Image
           src="/assets/logo.png"
           alt="img"

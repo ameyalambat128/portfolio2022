@@ -6,8 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: SF Pro Display, SF Pro Icons, Arial, Helveticas, Helvetica Neue,
-    sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Roboto, Arial, Helveticas,
+    Helvetica Neue, sans-serif;
 }
 
 a {
