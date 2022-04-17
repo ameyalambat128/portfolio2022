@@ -26,7 +26,7 @@ a {
   width: 20px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #242526;
+  background-color: #00000000;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #d6dee1;

@@ -1,10 +1,10 @@
 import React from "react";
 
 const BackgroundAnimation = () => (
-  <div className="p-1">
+  <div className="">
     <svg
       className="BgAnimation__svg"
-      viewBox="0 0 602 602"
+      viewBox="0 0 1204 1204"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
