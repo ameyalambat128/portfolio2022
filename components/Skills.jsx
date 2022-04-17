@@ -50,7 +50,8 @@ const Skills = () => {
             }}
           >
             I enjoy working on personal projects, and I believe that I achieve
-            optimal levels of personal performance and accomplishment
+            optimal levels of personal performance and accomplishment through
+            these.
           </span>
           <span
             className={`${s.skillText} inline-block`}
