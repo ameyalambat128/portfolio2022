@@ -5,7 +5,7 @@ import Work from "./Work";
 const About = () => {
   return (
     <div
-      className={`flex flex-col bg-white py-20 text-3xl md:text-4xl outline-1`}
+      className={`flex flex-col bg-white py-10 md:py-20 text-3xl md:text-4xl outline-1`}
     >
       <div className="container mx-auto px-11 transition-all duration-100">
         <p className="leading-tight max-w-5xl mx-auto text-black text-2xl md:text-4xl tracking-tight">
@@ -23,7 +23,7 @@ const About = () => {
             <Work
               image="/assets/work1.png"
               title="Mobile Application Developer"
-              description="Designing and developing a cross-platform mobile app for indigenous Native-American recipes.;
+              description="Designing and developing a cross-platform mobile app for indigenous Native-American recipes.
               Using React Native to build a responsive frontend from the ground up and make it user-friendly.
               Using Firebase as our backend and Firestore as the primary database."
             />

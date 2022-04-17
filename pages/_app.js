@@ -4,7 +4,7 @@ import ScrollObserver from "../utils/scroll-observer";
 function MyApp({ Component, pageProps }) {
   return (
     <ScrollObserver>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </ScrollObserver>
   );
 }
