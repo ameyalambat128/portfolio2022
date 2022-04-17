@@ -47,12 +47,12 @@ const Contact = () => {
           className="drop-shadow-[1px_5px_3px_rgba(0,0,0,0.8)]"
         />
       </div>
-      <h2 className="text-4xl font-bold">Contact Me</h2>
+      <h2 className="text-3xl md:text-4xl font-semibold">Contact Me</h2>
       <div className="mt-10 h-[1px] w-[80vw] bg-white" />
-      <div className="mt-10 flex flex-row items-center text-lg">
+      <div className="mt-10 flex flex-row items-center text-base md:text-lg">
         <AiOutlineCopyright /> Ameya Lambat
       </div>
-      <div className="mt-10 grid grid-cols-4 gap-4 lg:gap-8 lg:text-lg">
+      <div className="mt-10 px-5 md:px-4 grid grid-cols-4 gap-4 lg:gap-8 lg:text-lg">
         {ContactInfo.map(({ icon, name, link, id }) => (
           <a
             key={id}
