@@ -2,19 +2,19 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Landing from "../components/Landing";
-import styles from "../styles/Home.module.css";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Ameya Lambat</title>
         <meta name="description" content="Created by Ameya Lambat" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/logo.png" />
       </Head>
-      {/* <h1 className="text-bold">Hello World</h1> */}
       <Landing />
       <About />
+      <Skills />
     </div>
   );
 }
