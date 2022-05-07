@@ -23,9 +23,7 @@ const About = () => {
             <Work
               image="/assets/work3.png"
               title="Front End Developer Intern"
-              description="Designing and developing a cross-platform mobile app for indigenous Native-American recipes.
-              Using React Native to build a responsive frontend from the ground up and make it user-friendly.
-              Using Firebase as our backend and Firestore as the primary database."
+              description=""
             />
             <Work
               image="/assets/work1.png"
