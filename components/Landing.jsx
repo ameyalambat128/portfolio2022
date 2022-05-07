@@ -1,7 +1,6 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
 import Image from "next/image";
 import { ScrollContext } from "../utils/scroll-observer";
-import BackgroundAnimation from "./BackgroundAnimation";
 
 const Landing = () => {
   const [imageLoaded, setImageLoaded] = useState(false);

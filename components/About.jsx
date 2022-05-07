@@ -19,7 +19,12 @@ const About = () => {
           <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500">
             Work Experience
           </h2>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
+          <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
+            <Work
+              image="/assets/work3.png"
+              title="Front End Developer Intern"
+              description=""
+            />
             <Work
               image="/assets/work1.png"
               title="Mobile Application Developer"
