@@ -19,7 +19,14 @@ const About = () => {
           <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500">
             Work Experience
           </h2>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
+          <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
+            <Work
+              image="/assets/work3.png"
+              title="Front End Developer Intern"
+              description="Designing and developing a cross-platform mobile app for indigenous Native-American recipes.
+              Using React Native to build a responsive frontend from the ground up and make it user-friendly.
+              Using Firebase as our backend and Firestore as the primary database."
+            />
             <Work
               image="/assets/work1.png"
               title="Mobile Application Developer"
