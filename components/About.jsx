@@ -5,15 +5,16 @@ import Work from "./Work";
 const About = () => {
   return (
     <div
-      className={`flex flex-col bg-white py-5 md:py-20 text-3xl md:text-4xl outline-1`}
+      className={`flex flex-col bg-white py-10 md:py-20 text-3xl md:text-4xl outline-1`}
     >
       <div className="container mx-auto px-11 transition-all duration-100">
         <p className="leading-tight max-w-5xl mx-auto text-black text-2xl md:text-4xl tracking-tight">
           <strong>
             Hey, My name is Ameya, and I'm a Computer Science Major at ASU.
           </strong>{" "}
-          I am a full stack developer with a passion for learning and building
-          new web applications, and I love working with React!
+          I am a full-stack developer with a passion for learning and building
+          new web applications. I am currently learning a variety of new
+          technologies and acquiring new skills along the way!
         </p>
         <div className="container mx-auto md:px-11 text-center mt-28">
           <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500">
