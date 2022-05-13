@@ -60,10 +60,11 @@ const Landing = () => {
         />
       </div>
 
-      <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex flex-1 items-center justify-center flex-col">
-        <h1 className="mb-6 text-5xl font-semibold leading-tight xl:text-6xl">
-          Ameya Lambat
-        </h1>
+      <div className="p-12 z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex flex-1 items-center justify-center flex-col">
+        <div className="mb-6 text-5xl font-inter leading-tight xl:text-6xl">
+          <span className="font-semibold tracking-tighter">Ameya </span>
+          <span className="font-semibold tracking-tighter">Lambat</span>
+        </div>
         <h2 className="mb-2 text-2xl xl:text-3xl tracking-tight">
           <span>Full Stack Developer, </span>
           <span>CS Student</span>
