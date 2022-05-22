@@ -1,5 +1,5 @@
 # My Portfolio
 
-https://ameyalambat.vercel.app/
+https://ameyalambat.com
 
 Creating and uploading my protfolio here
