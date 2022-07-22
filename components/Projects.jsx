@@ -66,14 +66,15 @@ const Projects = () => {
               <ProjectLeft progress={progress}>
                 <div className="flex flex-col items-center justify-center px-10 lg:px-20">
                   <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
-                    Netflix-Clone
+                    Dr.App
                   </h1>
                   <span className="text-lg lg:text-2xl tracking-tight">
-                    Created a Netflix clone using React and Redux using Axios to
-                    fetch information from the API of TMBD.
+                    Working on a Progressive Web App (PWA) developed for the
+                    Doctors to manage their OPD data using Angular 11 and
+                    Indexed DB for storing offline data.
                   </span>
                   <a
-                    href="https://github.com/ameyalambat128/netfilx-clone"
+                    href="https://gitlab.com/code_chefs/dr-app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -86,10 +87,10 @@ const Projects = () => {
               <ProjectRight progress={progress}>
                 <div className="shadow-lg">
                   <Image
-                    src="/assets/netflix-clone.png"
+                    src="/assets/Dr.App.png"
                     width={1920}
                     height={928}
-                    alt="Netflix-Clone"
+                    alt="dr.app"
                   />
                 </div>
               </ProjectRight>
@@ -145,6 +146,45 @@ const Projects = () => {
               <ProjectLeft progress={progress}>
                 <div className="flex flex-col items-center justify-center px-10 lg:px-20">
                   <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
+                    Netflix-Clone
+                  </h1>
+                  <span className="text-lg lg:text-2xl tracking-tight">
+                    Created a Netflix clone using React and Redux using Axios to
+                    fetch information from the API of TMBD.
+                  </span>
+                  <a
+                    href="https://github.com/ameyalambat128/netfilx-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-white text-black mt-10 lg:mt-20 p-2 lg:p-5 text-lg font-semibold border-2 rounded-lg">
+                      Learn More
+                    </div>
+                  </a>
+                </div>
+              </ProjectLeft>
+              <ProjectRight progress={progress}>
+                <div className="shadow-lg">
+                  <Image
+                    src="/assets/netflix-clone.png"
+                    width={1920}
+                    height={928}
+                    alt="Netflix-Clone"
+                  />
+                </div>
+              </ProjectRight>
+            </ProjectContainer>
+          )}
+        ></Tile>
+      </TileContent>
+      <TileContent>
+        <Tile
+          page={4}
+          renderContent={({ progress }) => (
+            <ProjectContainer>
+              <ProjectLeft progress={progress}>
+                <div className="flex flex-col items-center justify-center px-10 lg:px-20">
+                  <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
                     Uber-Clone
                   </h1>
                   <span className="text-lg lg:text-2xl tracking-tight">
@@ -171,46 +211,6 @@ const Projects = () => {
                     width={1920}
                     height={928}
                     alt="uber"
-                  />
-                </div>
-              </ProjectRight>
-            </ProjectContainer>
-          )}
-        ></Tile>
-      </TileContent>
-      <TileContent>
-        <Tile
-          page={4}
-          renderContent={({ progress }) => (
-            <ProjectContainer>
-              <ProjectLeft progress={progress}>
-                <div className="flex flex-col items-center justify-center px-10 lg:px-20">
-                  <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
-                    Dr.App
-                  </h1>
-                  <span className="text-lg lg:text-2xl tracking-tight">
-                    Working on a Progressive Web App (PWA) developed for the
-                    Doctors to manage their OPD data using Angular 11 and
-                    Indexed DB for storing offline data.
-                  </span>
-                  <a
-                    href="https://gitlab.com/code_chefs/dr-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="bg-white text-black mt-10 lg:mt-20 p-2 lg:p-5 text-lg font-semibold border-2 rounded-lg">
-                      Learn More
-                    </div>
-                  </a>
-                </div>
-              </ProjectLeft>
-              <ProjectRight progress={progress}>
-                <div className="shadow-lg">
-                  <Image
-                    src="/assets/Dr.App.png"
-                    width={1920}
-                    height={928}
-                    alt="dr.app"
                   />
                 </div>
               </ProjectRight>

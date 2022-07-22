@@ -10,7 +10,7 @@ export const ProjectContainer = ({ children }) => (
 export const ProjectBackground = () => (
   <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0 sticky">
     <div className="bg-black h-[35vh] lg:h-auto"></div>
-    <div className="bg-white h-[65vh] lg:min-h-screen"></div>
+    <div className="bg-gray-100 h-[65vh] lg:min-h-screen"></div>
   </div>
 );
 
