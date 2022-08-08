@@ -22,6 +22,7 @@ const About = () => {
           </h2>
           <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
             <Work
+              link="https://breze.one"
               image="/assets/work4.png"
               title="Founder"
               description="Working on Breze, a new email client! Using Nextjs, TailwindCSS, and Redux for the frontend, and Nestjs for the backend."
