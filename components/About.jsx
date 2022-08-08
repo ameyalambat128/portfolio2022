@@ -25,14 +25,16 @@ const About = () => {
               link="https://breze.one"
               image="/assets/work4.png"
               title="Founder"
-              description="Working on Breze, a new email client! Using Nextjs, TailwindCSS, and Redux for the frontend, and Nestjs for the backend."
+              description="Browse Through Your Emails in a Breze. Working on Breze, a new email client! Using Nextjs, TailwindCSS, and Redux for the frontend. Using Nestjs, Go, AWS Lambda and AWS DynamoDB for the backend."
             />
             <Work
+              link="https://www.corsair.com"
               image="/assets/work3.png"
               title="Front End Developer Intern"
               description="Working with the web team at Corsair, managing Corsair.com and adding new features and products to it. Working with SAP Hybris to manage different pages and components. Using Nextjs, TailwindCSS to create new components and implement new designs."
             />
             <Work
+              link="https://www.asu.edu/"
               image="/assets/work1.png"
               title="Mobile Application Developer"
               description="Designing and developing a cross-platform mobile app for indigenous Native-American recipes.
@@ -40,6 +42,7 @@ const About = () => {
               Using Firebase as our backend and Firestore as the primary database."
             />
             <Work
+              link="https://engineering.asu.edu/"
               image="/assets/work2.png"
               title="Undergraduate Teaching Assistant"
               description="Kickstarting over 70 students' computer science journey in CSE110 which is the first class of CS majors.
