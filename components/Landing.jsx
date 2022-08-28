@@ -26,17 +26,17 @@ const Landing = () => {
         transform: `translateY(-${progress * 20}vh)`,
       }}
     >
-      {/* <div className="absolute w-full h-full z-0">
+      <div className="absolute w-full h-full z-0">
         <Image
-          src="/assets/bg1.jpg"
+          src="/assets/bg2.jpg"
           alt="background"
           width={1}
           height={2}
-          layout="responsive"
+          layout="fill"
+          objectFit="cover"
         />
-        <BackgroundAnimation />
-      </div> */}
-      <video
+      </div>
+      {/* <video
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ const Landing = () => {
         className="absolute w-full h-full object-cover"
       >
         <source src="/assets/landing.mp4" type="video/mp4" />
-      </video>
+      </video> */}
 
       <div
         className={`flex-grow-0 pt-10 transition-all duration-1000 ${
