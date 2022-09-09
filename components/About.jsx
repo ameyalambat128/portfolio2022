@@ -17,9 +17,16 @@ const About = () => {
           variety of new technologies and acquiring new skills along the way!
         </p>
         <div className="container mx-auto md:px-11 text-center mt-28">
-          <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500">
+          <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500 mb-2">
             Work Experience
           </h2>
+
+          <a
+            href="/resume.pdf"
+            className="text-lg font-light bg-blue-500/50 text-blue-500 ring-1 py-1 px-2 rounded-md"
+          >
+            Resume
+          </a>
           <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
             <Work
               link="https://breze.one"
