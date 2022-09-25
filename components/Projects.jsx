@@ -14,7 +14,7 @@ import { Tile, TileBackground, TileContent, TileWrapper } from "./Tile";
 
 const Projects = () => {
   return (
-    <TileWrapper numOfPages={7}>
+    <TileWrapper numOfPages={8}>
       <TileBackground>
         <ProjectBackground />
       </TileBackground>
@@ -66,6 +66,46 @@ const Projects = () => {
               <ProjectLeft progress={progress}>
                 <div className="flex flex-col items-center justify-center px-10 lg:px-20">
                   <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
+                    Docs Dark 2.0
+                  </h1>
+                  <span className="text-lg lg:text-2xl tracking-tight">
+                    Created a chrome extension that allows users to toggle
+                    between a custom dark theme.
+                  </span>
+                  <a
+                    href="https://chrome.google.com/webstore/detail/docs-dark-20/djmmkojigpkdagglmjjdjiddopgdchcn/overview?hl=en&authuser=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-white text-black mt-10 lg:mt-20 p-2 lg:p-5 text-lg font-semibold border-2 rounded-lg">
+                      Learn More
+                    </div>
+                  </a>
+                </div>
+              </ProjectLeft>
+              <ProjectRight progress={progress}>
+                <div className="shadow-lg">
+                  <Image
+                    src="/assets/docsdark.png"
+                    width={1920}
+                    height={928}
+                    objectFit="contain"
+                    alt="dr.app"
+                  />
+                </div>
+              </ProjectRight>
+            </ProjectContainer>
+          )}
+        ></Tile>
+      </TileContent>
+      <TileContent>
+        <Tile
+          page={2}
+          renderContent={({ progress }) => (
+            <ProjectContainer>
+              <ProjectLeft progress={progress}>
+                <div className="flex flex-col items-center justify-center px-10 lg:px-20">
+                  <h1 className="font-semibold lg:text-6xl mb-5 lg:mb-10 tracking-tight">
                     Dr.App
                   </h1>
                   <span className="text-lg lg:text-2xl tracking-tight">
@@ -100,7 +140,7 @@ const Projects = () => {
       </TileContent>
       <TileContent>
         <Tile
-          page={2}
+          page={3}
           renderContent={({ progress }) => (
             <ProjectContainer>
               <ProjectLeft progress={progress}>
@@ -140,7 +180,7 @@ const Projects = () => {
       </TileContent>
       <TileContent>
         <Tile
-          page={3}
+          page={4}
           renderContent={({ progress }) => (
             <ProjectContainer>
               <ProjectLeft progress={progress}>
@@ -179,7 +219,7 @@ const Projects = () => {
       </TileContent>
       <TileContent>
         <Tile
-          page={4}
+          page={5}
           renderContent={({ progress }) => (
             <ProjectContainer>
               <ProjectLeft progress={progress}>
@@ -220,7 +260,7 @@ const Projects = () => {
       </TileContent>
       <TileContent>
         <Tile
-          page={5}
+          page={6}
           renderContent={({ progress }) => (
             <ProjectContainer>
               <ProjectLeft progress={progress}>
@@ -260,7 +300,7 @@ const Projects = () => {
       </TileContent>
       <TileContent>
         <Tile
-          page={6}
+          page={7}
           renderContent={({ progress }) => (
             <ProjectContainer>
               <ProjectLeft progress={progress}>
