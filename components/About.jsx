@@ -20,10 +20,11 @@ const About = () => {
           <h2 className="font-semibold text-3xl md:text-4xl transition-all duration-500 mb-2">
             Work Experience
           </h2>
-
           <a
             href="/resume.pdf"
             className="text-lg font-light bg-blue-500/50 text-blue-500 ring-1 py-1 px-2 rounded-md"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Resume
           </a>
