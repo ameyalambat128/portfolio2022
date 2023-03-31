@@ -30,6 +30,12 @@ const About = () => {
           </a>
           <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
             <Work
+              link="https://paypal.com"
+              image="/assets/work4.png"
+              title="Software Engineer Intern"
+              description=""
+            />
+            <Work
               link="https://breze.one"
               image="/assets/work4.png"
               title="Founder"
@@ -38,7 +44,7 @@ const About = () => {
             <Work
               link="https://www.corsair.com"
               image="/assets/work3.png"
-              title="Front End Developer Intern"
+              title="Software Engineer Intern"
               description="Working with the web team at Corsair, managing Corsair.com and adding new features and products to it. Working with SAP Hybris to manage different pages and components. Using Nextjs, TailwindCSS to create new components and implement new designs."
             />
             <Work
