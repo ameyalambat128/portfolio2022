@@ -30,7 +30,7 @@ const Landing = () => {
         <Image
           src="/assets/bg2.jpg"
           alt="background"
-          fill
+          layout="fill"
           style={{ objectFit: "cover" }}
         />
       </div>

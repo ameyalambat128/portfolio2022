@@ -31,9 +31,9 @@ const About = () => {
           <div className="mt-10 grid align-middle grid-cols-1 md:grid-cols-2 gap-6 lg:gap-20">
             <Work
               link="https://paypal.com"
-              image="/assets/work4.png"
+              image="/assets/work5.png"
               title="Software Engineer Intern"
-              description=""
+              description="Working at PayPal on the Credit and Payments team."
             />
             <Work
               link="https://breze.one"
